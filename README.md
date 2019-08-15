@@ -28,7 +28,7 @@ __General Stats__:
 True or False refers to the assigned classification being Correct or Incorrect, while Positive or Negative refers to assignment to the Positive or the Negative Category;
 
 
-__Proformance Vector__:
+__Performance Vector__:
 
 
 __texted_x=200__  |  __Pridicted NO__ |   __Predicted Yes__

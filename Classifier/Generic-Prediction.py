@@ -169,13 +169,6 @@ class PredictiveAnalysis(object):
         :param predictive_y:
         :return: cm
 
-        It value yield 4 types of result in matrix form, which are;
-
-        TRUE POSITIVE : measures the proportion of actual positives that are correctly identified.
-        TRUE NEGATIVE : measures the proportion of actual positives that are not correctly identified.
-        FALSE POSITIVE : measures the proportion of actual negatives that are correctly identified.
-        FALSE NEGATIVE : measures the proportion of actual negatives that are not correctly identified.
-
         """
 
         cm = confusion_matrix(tested_y, predictive_y)

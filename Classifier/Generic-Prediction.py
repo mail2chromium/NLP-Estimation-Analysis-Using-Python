@@ -202,11 +202,3 @@ class PredictiveAnalysis(object):
         end_time = int(round(time.time() * 1000))
         print('End Time: ', end_time)
         print('\nTime Efficiency: ', (end_time - start_time) / 1000)
-
-    ################################################################
-
-
-if __name__ == '__main__':
-
-    obj_nlp = PredictiveAnalysis()
-    obj_nlp.main_processing(file_name='Restaurant_Reviews.tsv')

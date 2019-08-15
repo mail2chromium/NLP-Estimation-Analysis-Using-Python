@@ -6,7 +6,7 @@ __Introduction__:
 
 To process with any text of natural language either an article or a book, just add the data source name into
 
-__init__.py script " main_processing(file_name'required_Data_Set.type') "
+> __init__.py script " main_processing(file_name'required_Data_Set.type') "
 
 
 After that, analyze the resultant ( 2 x 2 ) confusion matrix to give predictions. Here, confusion matrix gives for types of results
@@ -28,7 +28,7 @@ __General Stats__:
 True or False refers to the assigned classification being Correct or Incorrect, while Positive or Negative refers to assignment to the Positive or the Negative Category;
 
 
-__Proformance Vector__
+__Proformance Vector__:
 
 
 __texted_x=200__  |  __Pridicted NO__ |   __Predicted Yes__
